@@ -3,10 +3,14 @@
         "module": "commonjs",
         "esModuleInterop": true,
         "target": "es2017",
-        "noImplicitAny": true,
+    "resolveJsonModule": true,
+    "noImplicitAny": true,
         "moduleResolution": "node",
+        "skipLibCheck": true,
         "sourceMap": true,
         "outDir": "dist",
+        "allowSyntheticDefaultImports": true,
+        "strict": false,
         "baseUrl": ".",
         "paths": {
             "*": [
